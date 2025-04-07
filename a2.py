@@ -77,9 +77,6 @@ def replace_letters():
     return input_text
 
 
-output_text = replace_letters()
-
-print("Результат:", output_text)
 
 #Заменяет буквы в слове на символы
 
