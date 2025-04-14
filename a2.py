@@ -74,8 +74,6 @@ def replace_letters():
     for key in replacements:
         input_text = input_text.replace(key, replacements[key])
 
-    return input_text
-
 
 
 #Заменяет буквы в слове на символы
