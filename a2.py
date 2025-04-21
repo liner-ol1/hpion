@@ -79,13 +79,13 @@ def replace_letters():
 #Заменяет буквы в слове на символы
 
 
-
-sentence = input("Введите предложение: ")
-count = 0
-for char in sentence:
-    if ('А' <= char <= 'Я') or ('а' <= char <= 'я'):
-        count += 1
-
+def podschet():
+    sentence = input("Введите предложение: ")
+    count = 0
+    for char in sentence:
+        if ('А' <= char <= 'Я') or ('а' <= char <= 'я'):
+            count += 1
+    return count
 #считает буквы в предложении
 
 
