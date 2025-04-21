@@ -10,5 +10,5 @@ def times(hours):
          return seconds
 
 def minutes(mins):
-       ыусщтвы = 60*mins
+         seconds = 60*mins
          return seconds
