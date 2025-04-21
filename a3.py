@@ -1,7 +1,4 @@
-sentence = input("Введите предложение: ")
-count = 0
-for char in sentence:
-    if ('А' <= char <= 'Я') or ('а' <= char <= 'я'):
-        count += 1
-
-#считает буквы в предложении
+from ttime import times
+hh = int(input("Введите кол-во часрв, которое хотите перевести:")
+         print(hh, "часов =", times(hh), "секунд.")
+         
